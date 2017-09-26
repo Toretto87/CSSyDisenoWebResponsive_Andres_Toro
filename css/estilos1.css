@@ -1,0 +1,45 @@
+#imagen1 {
+  width: 100%;
+  background: #82c3a6;
+  text-align: center;
+  border: solid #82c3a6 1px;
+}
+
+#imagen1 img {
+  width: 80%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#imagen2 {
+  width: 100%;
+  background: #d5c75f;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid #d5c75f 1px;
+}
+
+.fotoenlace>a {
+width: 100%;
+}
+
+.fotoenlace a img {
+  width: 100%;
+}
+
+.fotoenlace a {
+  color: black;
+}
+
+.fotoenlace {
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+#mascota {
+  margin-right: 5%;
+}

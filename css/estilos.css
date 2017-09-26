@@ -1,0 +1,129 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background: #02010a;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background: #5b7989;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  border: solid #5b7989 1px;
+  width: 100%;
+}
+
+header h1 {
+  text-shadow: 2px 2px #02010a;
+  flex-grow: 1;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.menuppal {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.menuppal ul {
+  flex-grow: 1;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+
+.menuppal ul li {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.menuppal ul li a:visited {
+  color: white;
+}
+
+.menuppal ul li a{
+  color: white;
+}
+
+.actual a{
+  text-decoration: none;
+}
+
+img {
+  box-shadow: 2px 2px #02010a;
+}
+
+footer {
+  background: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  border: solid #C6d5c5 1px;
+  width: 100%;
+}
+
+.footer {
+  width: 25%;
+  padding-left: 5%;
+}
+
+#contacto h2 {
+  margin-bottom: 0;
+}
+
+#contacto ul {
+  list-style-type: none;
+  padding-left: 1%;
+  margin-top: 1%;
+}
+
+#terminos h2 {
+  margin-bottom: 0;
+}
+
+#terminos p {
+  padding-left: 1%;
+  margin-top: 1%;
+}
+
+#derechos h2 {
+  margin-bottom: 0;
+}
+
+#derechos ul {
+  padding-left: 1%;
+  margin-top: 1%;
+}
+
+#redes h2 {
+  margin-bottom: 0;
+}
+
+#redes ul {
+  list-style-type: none;
+  padding-left: 1%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+#redes img {
+  box-shadow: none;
+}
