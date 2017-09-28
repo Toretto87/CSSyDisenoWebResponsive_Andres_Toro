@@ -6,9 +6,11 @@ body {
 .contenido {
   display: flex;
   flex-direction: column;
+  width: 900px;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  animation: slidein 1s;
 }
 
 header {
@@ -19,6 +21,7 @@ header {
   color: white;
   border: solid #5b7989 1px;
   width: 100%;
+  font-size: 1.3em;
 }
 
 header h1 {
@@ -77,6 +80,7 @@ footer {
   color: black;
   border: solid #C6d5c5 1px;
   width: 100%;
+  font-size: 1em;
 }
 
 .footer {
@@ -110,6 +114,7 @@ footer {
 #derechos ul {
   padding-left: 1%;
   margin-top: 1%;
+  list-style-type: none;
 }
 
 #redes h2 {
@@ -126,4 +131,48 @@ footer {
 
 #redes img {
   box-shadow: none;
+  width: 1.3em;
+}
+
+@-webkit-keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+
+@media (max-width:900px) {
+  .contenido{
+    width: 100%;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+
+  }
+  .menuppal{
+    width: 100%;
+  }
+  .menuppal ul {
+    justify-content: center;
+    padding-right: 0;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding-top: 1em;
+  }
+  .footer {
+    width: 100%;
+    margin-top: 1em;
+  }
 }
