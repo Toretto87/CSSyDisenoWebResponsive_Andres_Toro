@@ -1,4 +1,4 @@
-#imagen1 {
+#imagen1ind {
   width: 100%;
   background: #82c3a6;
   text-align: center;
@@ -6,13 +6,13 @@
   font-size: 1.3em;
 }
 
-#imagen1 img {
+#imagen1ind img {
   width: 80%;
   margin-top: 4%;
   margin-bottom: 4%;
 }
 
-#imagen2 {
+#imagen2ind {
   width: 100%;
   background: #d5c75f;
   text-align: center;
