@@ -2,7 +2,6 @@
   width: 100%;
   background: #82c3a6;
   text-align: center;
-  border: solid #82c3a6 1px;
   font-size: 1.3em;
 }
 
@@ -24,8 +23,12 @@
   font-size: 1.2em;
 }
 
-.fotoenlace>a {
-width: 100%;
+.fotoenlace {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
 
 .fotoenlace a img {
@@ -35,13 +38,6 @@ width: 100%;
 .fotoenlace a {
   color: black;
   width: 100%;
-}
-
-.fotoenlace {
-  width: 42.5%;
-  margin-left: 5%;
-  margin-top: 4%;
-  margin-bottom: 2%;
 }
 
 #panorama {
@@ -55,7 +51,7 @@ width: 100%;
 }
 
 #mascota {
-  margin-right: 5%;
+
   transition-property: transform, box-shadow;
   transition-duration: 1s, 1s;
 }
@@ -74,10 +70,12 @@ width: 100%;
     justify-content: center;
     margin-bottom: 4%;
   }
+
   .fotoenlace a img {
     width: 80%;
     margin-top: 4%;
   }
+
   #mascota {
     margin-right: 0;
   }

@@ -1,7 +1,6 @@
 .galeria {
   width: 100%;
   background: #d5c75f;
-  border: solid #d5c75f 1px;
   padding-bottom: 4%;
   display: flex;
   flex-direction: row;
@@ -30,10 +29,15 @@
   filter: sepia(90%);
 }
 
-@media (max-width:900px) {
-  .galeria {
+header {
+  border: solid #5b7989 0px;
+}
 
-  }
+footer {
+  border: solid #C6d5c5 0px;
+}
+
+@media (max-width:900px) {
   .galeria img {
     width: 80%;
     margin-right: auto;

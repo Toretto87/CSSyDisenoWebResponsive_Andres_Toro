@@ -1,13 +1,14 @@
 body {
   font-family: 'Dancing Script', cursive;
   background: #02010a;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .contenido {
   display: flex;
   flex-direction: column;
   width: 900px;
-  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   animation: slidein 1s;
@@ -19,7 +20,6 @@ header {
   display: flex;
   flex-direction: row;
   color: white;
-  border: solid #5b7989 1px;
   width: 100%;
   font-size: 1.3em;
 }
@@ -37,6 +37,11 @@ header h1 {
   align-items: center;
 }
 
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
 .menuppal ul {
   flex-grow: 1;
   padding-left: 0;
@@ -48,11 +53,6 @@ header h1 {
 .menuppal ul li {
   padding-right: 1em;
   padding-left: 1em;
-}
-
-.menu {
-  list-style-type: none;
-  display: flex;
 }
 
 .menuppal ul li a:visited {
@@ -78,7 +78,6 @@ footer {
   flex-direction: row;
   justify-content: center;
   color: black;
-  border: solid #C6d5c5 1px;
   width: 100%;
   font-size: 1em;
 }
@@ -150,27 +149,33 @@ footer {
   .contenido{
     width: 100%;
   }
+
   header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   header h1 {
     width: 100%;
     text-align: center;
 
   }
+
   .menuppal{
     width: 100%;
   }
+
   .menuppal ul {
     justify-content: center;
     padding-right: 0;
   }
+
   footer {
     flex-wrap: wrap;
     padding-top: 1em;
   }
+  
   .footer {
     width: 100%;
     margin-top: 1em;
