@@ -3,14 +3,14 @@ body {
   background: #02010a;
   margin-left: 0;
   margin-right: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .contenido {
   display: flex;
   flex-direction: column;
   width: 900px;
-  margin-left: auto;
-  margin-right: auto;
   animation: slidein 1s;
 }
 
@@ -175,7 +175,7 @@ footer {
     flex-wrap: wrap;
     padding-top: 1em;
   }
-  
+
   .footer {
     width: 100%;
     margin-top: 1em;
